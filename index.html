@@ -1,0 +1,134 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="menu">
+        <button id="close-menu">&times;</button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#qualification">Qualification</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#technology">Technologies</a></li>
+                <li><a href="#contact-me">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+
+
+
+    <header>
+        <nav class="default-nav">
+            <a href="index.html">Home</a>
+            <a href="#qualification">Qualification</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#technology">Technologies</a>
+            <a href="#contact-me">Contact</a>
+        </nav>
+        <nav class="mobile-nav">
+            <button id="menu-button">Menu</button>
+        </nav>
+    </header>
+
+    <div class="image">
+        <img class="profile-image" height="300" width="300" src="./affan.jpg" alt="">
+        <h2>Hi, I'm Affan Boral</h2>
+        <p>I am <span id="magic" class="magic-text"></span></p>
+    </div>
+
+    <div id="qualification">
+        <h2>Qualification</h2>
+        <p>
+            <ol>
+                <li>12th in Artificial Intellegence</li>
+                <li>B.E AI&DS</li>
+            </ol>
+        </p>
+    </div>
+
+    <div id="hobbies">
+        <h2>Hobbies</h2>
+        <p>
+            <ul>
+                <li>Cricket</li>
+                <li>Football</li>
+                <li>Swimming</li>
+            </ul>
+        </p>
+    </div>
+
+
+    <div id="technology">
+        <h2>Technologies</h2>
+        <p>
+            <table border="1">
+                <tr>
+                    <th>Frontend</th>
+                    <th>Backend</th>
+                    <th>Databses</th>
+                </tr>
+                <tr>
+                    <th>Html</th>
+                    <th>Python</th>
+                    <th>DBMS</th>
+                </tr>
+                <tr>
+                    <th>CSS</th>
+                    <th>node</th>
+                    <th>MongoDb</th>
+                </tr>
+                <tr>
+                    <th>Flutter</th>
+                    <th>Java</th>
+                    <th>Firebase Firestore</th>
+                </tr>
+            </table>
+        </p>
+    </div>
+
+    <div id="contact-me">
+
+        <form action="" method="get" id="contact" data-netlify="true">
+            <h3><b>Contact Me</b></h3>
+            <div>
+                <label for="firstName">FirstName:</label>
+                <input type="text" id="firstName">
+            </div>
+
+            <div>
+                <label for="lastname">LastName:</label>
+                <input type="text" id="lastname">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+            </div>
+
+            <div>
+                <label for="phone">Contact Number:</label>
+                <input type="tel" id="phone">
+            </div>
+
+            <div>
+                <label for="msg">Message:</label>
+                <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+            </div>
+
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+
+
+    <script src="main.js"></script>
+    <script src="menu.js"></script>
+
+</body>
+</html] ''
